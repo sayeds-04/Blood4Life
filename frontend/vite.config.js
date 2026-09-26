@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Blood4Life/',
   plugins: [react()],
   server: {
     port: 5173,
